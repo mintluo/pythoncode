@@ -1,0 +1,10 @@
+from PyQt5 import QtWidgets, QtCore
+from first import firstwindows
+import sy
+
+if __name__=="__main__":s
+    app = QtWidgets.QApplication(sys.argv)
+    new=firstwindows()
+    new.show()
+    sys.exit(app.exec_()) 
+    
