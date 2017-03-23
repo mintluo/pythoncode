@@ -30,7 +30,7 @@ def mbs_to_utf8(s):
 
 host = 'pop-mail.outlook.com'
 username = 'lm409@hotmail.com'
-password = '07156517162lm'
+password = '***'
 print('begin pop')
 pop_conn = poplib.POP3_SSL(host)
 pop_conn.user(username)

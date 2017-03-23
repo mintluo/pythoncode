@@ -51,7 +51,7 @@ def print_info(msg, indent=0):
             print('%sAttachment: %s' % ('  ' * indent, content_type))
 
 email = 'lm409@hotmail.com'
-password = '07156517162lm'
+password = '***'
 pop3_server = 'pop-mail.outlook.com'
 
 server = poplib.POP3_SSL(pop3_server)
@@ -63,11 +63,13 @@ server.pass_(password)
 print('Messages: %s. Size: %s' % server.stat())
 resp, mails, octets = server.list()
 # 获取最新一封邮件, 注意索引号从1开始:
-resp, lines, octets = server.retr(len(mails))
-# 解析邮件:
-msg = Parser().parsestr('\r\n'.join(lines))
-# 打印邮件内容:
-print_info(msg)
+index = len(mails)
+for i in range(index,index-5,-1):
+    resp, lines, octets = server.retr(i)
+    # 解析邮件:
+    msg = Parser().parsestr('\r\n'.join(lines))
+    # 打印邮件内容:
+    print_info(msg)
 # 慎重:将直接从服务器删除邮件:
 # server.dele(len(mails))
 # 关闭连接:

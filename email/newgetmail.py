@@ -105,7 +105,7 @@ if __name__ == '__main__':
     #emailuser = raw_input('请输入邮箱地址: ')
     emailuser='lm409@hotmail.com'
     #emailpass = raw_input('请输入邮箱密码: ')
-    emailpass='07156517162lm'
+    emailpass='***'
     #datestr = raw_input('Please input the DATE(eg:20170401): ')
     datestr='20170322'
     keywords = raw_input('Please input the KEYWORD: ').decode('gbk')

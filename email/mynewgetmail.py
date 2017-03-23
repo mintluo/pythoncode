@@ -98,4 +98,4 @@ def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords,emailnum):
 
     pop_conn.quit()
 
-mail=GetmailAttachment('pop-mail.outlook.com','lm409@hotmail.com','07156517162lm','20170319',u'test',5)
+mail=GetmailAttachment('pop-mail.outlook.com','lm409@hotmail.com','***','20170319',u'test',5)

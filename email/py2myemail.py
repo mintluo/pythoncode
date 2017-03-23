@@ -7,12 +7,16 @@ import email
 import datetime
 import time
 import os
+import sys
 import xlrd
 import xlwt
 from email.parser import Parser
 from email.header import decode_header
 from email.utils import parseaddr
-
+# 确定运行环境的encoding
+__g_codeset = sys.getdefaultencoding()
+if "ascii"==__g_codeset:
+    __g_codeset = locale.getdefaultlocale()[1]
 #获取编码方式
 def guess_charset(msg):
     charset = msg.get_charset()
@@ -79,7 +83,7 @@ def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords,searchnum):
         resp, lines, octets = pop_conn.retr(i)
         # lines存储了邮件的原始文本的每一行,
         # 可以获得整个邮件的原始文本:
-        msg_content = b'\r\n'.join(lines).decode('utf-8')
+        msg_content = '\r\n'.join(lines)
         # 稍后解析出邮件:
         msg = Parser().parsestr(msg_content)
 
@@ -152,8 +156,8 @@ if __name__ == '__main__':
     emailhost='pop-mail.outlook.com'
     #emailuser = raw_input('请输入邮箱地址: ')
     emailuser='lm409@hotmail.com'
-    #emailpass = raw_input('请输入邮箱密码: ')
-    emailpass='***'
+    emailpass = raw_input('请输入邮箱密码: ')
+    #emailpass='***'
     datestr = raw_input('Please input the STARTDATE(eg:20170401): ')
     keywords = raw_input('Please input the KEYWORD: ').decode('gbk')
     searchnum = raw_input('Please input the SEARCHNUM: ')
