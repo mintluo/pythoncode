@@ -1,18 +1,17 @@
-# coding=utf-8
+#!/usr/bin/python2
+# -*- coding: utf-8 -*-
+# author: milletluo
+# 自动登录邮箱，下载包含关键字和指定日期后的邮件附件
 import poplib
 import cStringIO
 import email
 import base64
 import datetime
 import time
-#import xlrd
 from email.parser import Parser
 from email.header import decode_header
 from email.utils import parseaddr
 from email import parser
-import sys
-reload(sys)
-sys.setdefaultencoding('gbk')
 
 def decode_str(s):
     value, charset = decode_header(s)[0]
@@ -74,6 +73,7 @@ def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords):
                 mycode=part.get_content_charset();
                 print(filename)
                 print(contentType)
+                print(mycode)
                 print( "---------------------------------------")
                 #不知为何附件格式为application/octet-stream
                 if filename: #and (contentType == 'application/vnd.ms-excel' or contentType == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'):
@@ -88,15 +88,26 @@ def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords):
                     fEx = open("%s"%(fname), 'wb')
                     fEx.write(data)
                     fEx.close()
-                    print '文件下载成功'
+                    print 'Download File OK'
                     getfilesuss += 1
                     #return fEx.name
                 else:
                     pass
             #break
     if getfilesuss == 0:
-        print '未找到符合条件的邮件'
+        print 'No Match File'
 
     pop_conn.quit()
 
-mail=GetmailAttachment('pop-mail.outlook.com','lm409@hotmail.com','07156517162lm','20170319','test')
+if __name__ == '__main__':
+    #emailhost = raw_input('请输入邮箱服务器地址: ')
+    emailhost='pop-mail.outlook.com'
+    #emailuser = raw_input('请输入邮箱地址: ')
+    emailuser='lm409@hotmail.com'
+    #emailpass = raw_input('请输入邮箱密码: ')
+    emailpass='07156517162lm'
+    #datestr = raw_input('Please input the DATE(eg:20170401): ')
+    datestr='20170322'
+    keywords = raw_input('Please input the KEYWORD: ').decode('gbk')
+    #print(type(keywords))
+    GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords)
