@@ -137,7 +137,7 @@ def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords,searchnum):
                 sourcefile=GetFileName(fname)
                 print(sourcefile)
                 print(type(sourcefile))
-                data = xlrd.open_workbook(os.path.join(new_path, fname))#打开源表格
+                data = xlrd.open_workbook(os.path.join(new_path, fname),formatting_info=True)#打开源表格
                 table = data.sheet_by_index(0)#打开源表格sheet
                 nrows = table.nrows#源表格数据数目
                 newsheet = outfile.add_sheet(sourcefile)#目的表格新增sheet
@@ -156,7 +156,7 @@ if __name__ == '__main__':
     emailhost='pop-mail.outlook.com'
     #emailuser = raw_input('请输入邮箱地址: ')
     emailuser='lm409@hotmail.com'
-    emailpass = raw_input('请输入邮箱密码: ')
+    emailpass = raw_input('Please input the PASSWORD: ')
     #emailpass='***'
     datestr = raw_input('Please input the STARTDATE(eg:20170401): ')
     keywords = raw_input('Please input the KEYWORD: ').decode('gbk')

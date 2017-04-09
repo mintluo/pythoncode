@@ -34,7 +34,7 @@ def GetFileName(filename):
     (shotname,extension) = os.path.splitext(tempfilename);
     return shotname
 #下载邮件附件
-def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords,searchnum):
+def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords):
     host = emailhost
     username = emailuser
     password = emailpass
@@ -60,14 +60,15 @@ def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords,searchnum):
 	# stat()返回邮件数量和占用空间:
     print('Messages: %s. Size: %s' % pop_conn.stat())
     num = len(pop_conn.list()[1])  #邮件总数
+    '''#仅搜索searchnum封邮件
     if num < int(searchnum):  #当总邮件数目小于emailnum的时候读取所有邮件
         num2 = 0
     else:
-        num2 = num-int(searchnum)
+        num2 = num-int(searchnum)'''
 
     getfilesucess = 0
-    #遍历倒数emailnum封邮件
-    for i in range(num,num2,-1):
+    #倒叙遍历邮件
+    for i in range(num,0,-1):
 		#poplib.rert('邮件号码')方法返回一个元组:(状态信息,邮件,邮件尺寸)
 		#hdr,message,octet=server.retr(1) 读去第一个邮件信息.
 		#hdr的内容就是响应信息和邮件大小比如'+OK 12498 octets'
@@ -77,24 +78,29 @@ def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords,searchnum):
         # lines存储了邮件的原始文本的每一行,
         # 可以获得整个邮件的原始文本:
         msg_content = b'\r\n'.join(lines).decode('utf-8')
-        # 稍后解析出邮件:
+        # 然后解析出邮件:
         msg = Parser().parsestr(msg_content)
 
+        date1 = time.strptime(msg.get("Date")[0:24],'%a, %d %b %Y %H:%M:%S') #格式化收件时间
+        date2 = time.strftime("%Y%m%d", date1)
+        #如果日期不满足，跳出循环遍历
+        if date2<datestr:
+            break
+        #获取邮件标题和发件人
         for header in ['From', 'Subject']:
             value = msg.get(header, '')
             if value:
                 if header=='Subject':
                     subject = decode_str(value)#邮件标题
+                    print('邮件标题%s:' % subject)
                 else:
                     hdr, addr = parseaddr(value)
                     name = decode_str(hdr)
                     fromname = u'%s' % (name)#发件人名称
                     fromaddr = u'%s' % (addr)#发件人邮箱
-        date1 = time.strptime(msg.get("Date")[0:24],'%a, %d %b %Y %H:%M:%S') #格式化收件时间
-        date2 = time.strftime("%Y%m%d", date1)
         print('发件人%d: %s' % (i,fromname))
         print( "=======================================")
-        if (date2>=datestr) and (keywords in subject):
+        if keywords in subject:
             for part in msg.walk():
                 filename = part.get_filename()
                 #不知为何excel附件格式为application/octet-stream
@@ -149,5 +155,5 @@ if __name__ == '__main__':
     #emailpass='***'
     datestr = input('请输入起始日期(如20170401): ')
     keywords = input('请输入关键词: ')
-    searchnum = input('请输入搜索数目: ')
-    GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords,searchnum)
+    print('请稍后。。。')
+    GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords)
