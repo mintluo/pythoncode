@@ -52,7 +52,7 @@ def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords,searchnum):
     #需要验证的邮件服务
     pop_conn = poplib.POP3_SSL(host)
     # 可选:打印POP3服务器的欢迎文字:
-    print(pop_conn.getwelcome())
+    print(pop_conn.getwelcome().decode('utf-8'))
 	# 可以打开或关闭调试信息:
     #pop_conn.set_debuglevel(1)
     pop_conn.user(username)
@@ -75,8 +75,9 @@ def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords,searchnum):
 		#octet 是这个邮件的内容.
         resp, lines, octets = pop_conn.retr(i)
         # lines存储了邮件的原始文本的每一行,
+        #  'sep'.join(obj)以sep作为分隔符，将obj所有的元素合并成一个新的字符串
         # 可以获得整个邮件的原始文本:
-        msg_content = b'\r\n'.join(lines).decode('utf-8')
+        msg_content = (b'\r\n'.join(lines)).decode('utf-8')
         # 稍后解析出邮件:
         msg = Parser().parsestr(msg_content)
 
@@ -97,6 +98,8 @@ def GetmailAttachment(emailhost,emailuser,emailpass,datestr,keywords,searchnum):
         if (date2>=datestr) and (keywords in subject):
             for part in msg.walk():
                 filename = part.get_filename()
+                print(type(filename))
+                print('邮件标题：%s' % filename)
                 #不知为何excel附件格式为application/octet-stream
                 if filename: #and (contentType == 'application/vnd.ms-excel' or contentType == 'application/vnd.openxmlformats-officedocument.spreadsheetml.sheet'):
                     data = part.get_payload(decode=True)
