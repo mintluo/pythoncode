@@ -2,10 +2,63 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f51e66d-c3ce-4440-b8bf-3457f643074d" name="Default" comment="">
+<<<<<<< HEAD
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/learningPython/mytest.db" afterPath="$PROJECT_DIR$/learningPython/mytest.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/pythoncode.iml" afterPath="$PROJECT_DIR$/.idea/pythoncode.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+=======
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learningPython/Blow in the wind.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/learningPython/mylyrics.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/AddressBook.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/BallGameSim.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/Projectile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/addinterest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/addinterest2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/calcword.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/changeT.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/clock.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/combinebook.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/combinebook1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/data.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/drawaface.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/drawafiverectangle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/drawatree.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/drawconverter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/drawfromfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/drawsnake.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/email.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/exam1.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/exam2.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/exam3.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/exam4.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/exam5.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/getweek.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/graphics.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/hamlet.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/matchSim.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/maxn.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/moverectangle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/pm25.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/qq.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/rainbow.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/readfile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/showthedate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/snow.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/sunflower.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/tele.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/tree.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/tree.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/useoswalk.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/usepptx.pptx" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/usepptx.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/usepyplot.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/usesched.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/mooc/usexlrd.py" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mooc/.idea/workspace.xml" afterPath="$PROJECT_DIR$/mooc/.idea/workspace.xml" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,7 +82,52 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
+<<<<<<< HEAD
     <leaf />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="mytest.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learningPython/mytest.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mylyrics.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/learningPython/mylyrics.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dealleavedata.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DealOSHData/7.18文件夹(整理后)/dealleavedata.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dealdata.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/DealOSHData/7.18文件夹(整理后)/dealdata.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,10 +158,21 @@
         <option value="$PROJECT_DIR$/mooc/combinebook.py" />
         <option value="$PROJECT_DIR$/mooc/calcword.py" />
         <option value="$PROJECT_DIR$/mooc/combinebook1.py" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/getprs/getLatestVersion.py" />
         <option value="$PROJECT_DIR$/getprs/test.py" />
         <option value="$PROJECT_DIR$/getprs/filterLastestVersionNew.py" />
         <option value="$PROJECT_DIR$/getprs/filterLastestVersion.py" />
+=======
+        <option value="$PROJECT_DIR$/mooc/matchSim.py" />
+        <option value="$PROJECT_DIR$/mooc/Projectile.py" />
+        <option value="$PROJECT_DIR$/mooc/BallGameSim.py" />
+        <option value="$PROJECT_DIR$/learningPython/mylyrics.py" />
+        <option value="$PROJECT_DIR$/learningPython/Blow in the wind.txt" />
+        <option value="$PROJECT_DIR$/DealOSHData/dealdata.py" />
+        <option value="$PROJECT_DIR$/DealOSHData/7.18文件夹/dealdata.py" />
+        <option value="$PROJECT_DIR$/DealOSHData/7.18文件夹(整理后)/dealleavedata.py" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       </list>
     </option>
   </component>
@@ -74,6 +183,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1936" />
@@ -81,6 +191,11 @@
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
+=======
+    <option name="y" value="22" />
+    <option name="width" value="1680" />
+    <option name="height" value="887" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
   </component>
   <component name="ProjectView">
     <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
@@ -133,7 +248,11 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="pyqt">
+            <PATH_ELEMENT USER_OBJECT="DealOSHData">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="7.18文件夹(整理后)">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -147,7 +266,19 @@
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
+<<<<<<< HEAD
             <PATH_ELEMENT USER_OBJECT="getprs">
+=======
+            <PATH_ELEMENT USER_OBJECT="DealOSHData">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="7.18文件夹(整理后)">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="已离职">
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
             </PATH_ELEMENT>
@@ -159,8 +290,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js.eslint.eslintPackage" value="" />
+<<<<<<< HEAD
     <property name="settings.editor.selected.configurable" value="reference.idesettings.debugger.python" />
     <property name="last_opened_file_path" value="/usr/local/bin/python3" />
+=======
+    <property name="settings.editor.selected.configurable" value="PyConsoleConfigurable.Python Console" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -192,8 +328,13 @@
       </list>
     </option>
   </component>
+<<<<<<< HEAD
   <component name="RunManager" selected="Python.filterLastestVersion">
     <configuration default="false" name="combinebook1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+  <component name="RunManager" selected="Python.dealleavedata">
+    <configuration default="false" name="BallGameSim" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -206,83 +347,135 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythoncode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mooc/combinebook1.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/mooc/BallGameSim.py" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="getLatestVersion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="mylyrics" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/getprs" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/learningPython" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythoncode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getprs/getLatestVersion.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/learningPython/mylyrics.py" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="dealdata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/getprs" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DealOSHData" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythoncode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getprs/test.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DealOSHData/dealdata.py" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="filterLastestVersion" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="dealdata (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/getprs" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DealOSHData/7.18文件夹" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythoncode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getprs/filterLastestVersion.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DealOSHData/7.18文件夹/dealdata.py" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <method />
     </configuration>
+<<<<<<< HEAD
     <configuration default="false" name="filterLastestVersionNew" type="PythonConfigurationType" factoryName="Python" temporary="true">
+=======
+    <configuration default="false" name="dealleavedata" type="PythonConfigurationType" factoryName="Python" temporary="true">
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
+<<<<<<< HEAD
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/getprs" />
+=======
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DealOSHData/7.18文件夹(整理后)" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pythoncode" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+<<<<<<< HEAD
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/getprs/filterLastestVersionNew.py" />
+=======
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DealOSHData/7.18文件夹(整理后)/dealleavedata.py" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -391,6 +584,7 @@
       <method />
     </configuration>
     <list size="5">
+<<<<<<< HEAD
       <item index="0" class="java.lang.String" itemvalue="Python.combinebook1" />
       <item index="1" class="java.lang.String" itemvalue="Python.getLatestVersion" />
       <item index="2" class="java.lang.String" itemvalue="Python.test" />
@@ -404,6 +598,21 @@
         <item index="2" class="java.lang.String" itemvalue="Python.test" />
         <item index="3" class="java.lang.String" itemvalue="Python.getLatestVersion" />
         <item index="4" class="java.lang.String" itemvalue="Python.combinebook1" />
+=======
+      <item index="0" class="java.lang.String" itemvalue="Python.BallGameSim" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mylyrics" />
+      <item index="2" class="java.lang.String" itemvalue="Python.dealdata" />
+      <item index="3" class="java.lang.String" itemvalue="Python.dealdata (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.dealleavedata" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.dealleavedata" />
+        <item index="1" class="java.lang.String" itemvalue="Python.dealdata (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Python.dealdata" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mylyrics" />
+        <item index="4" class="java.lang.String" itemvalue="Python.BallGameSim" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       </list>
     </recent_temporary>
     <configuration default="true" type="tests" factoryName="Attests">
@@ -444,12 +653,21 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< HEAD
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+=======
+    <frame x="0" y="22" width="1680" height="887" extended-state="0" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1796875" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+<<<<<<< HEAD
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32996634" sideWeight="0.50289017" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31501058" sideWeight="0.49710983" order="2" side_tool="false" content_ui="tabs" />
+=======
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.50289017" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36308068" sideWeight="0.49710983" order="2" side_tool="false" content_ui="tabs" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31045407" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -491,6 +709,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mooc/combinebook.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
@@ -544,9 +763,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/pyqt/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mooc/email.txt" />
+    <entry file="file://$PROJECT_DIR$/mooc/combinebook1.py" />
+    <entry file="file://$PROJECT_DIR$/mooc/showthedate.py" />
     <entry file="file://$PROJECT_DIR$/first.py" />
     <entry file="file://$PROJECT_DIR$/second.py" />
     <entry file="file://$PROJECT_DIR$/telnet.py" />
@@ -566,6 +794,7 @@
     <entry file="file://$PROJECT_DIR$/oldtelnet.py" />
     <entry file="file://$PROJECT_DIR$/devicedetect2.py" />
     <entry file="file://$PROJECT_DIR$/testmain.py" />
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mooc/pm25.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -578,27 +807,65 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="13" column="15" lean-forward="false" selection-start-line="13" selection-start-column="15" selection-end-line="13" selection-end-column="15" />
+=======
+    <entry file="file://$PROJECT_DIR$/mooc/pm25.py" />
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/turtle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="1636" column="0" lean-forward="false" selection-start-line="1636" selection-start-column="0" selection-end-line="1636" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mooc/drawfromfile.py">
+    <entry file="file://$PROJECT_DIR$/mooc/data.txt" />
+    <entry file="file://$PROJECT_DIR$/mooc/drawfromfile.py" />
+    <entry file="file://$PROJECT_DIR$/mooc/showthedate.py" />
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharmCE2017.1/python_stubs/1437855905/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="2018" column="8" lean-forward="false" selection-start-line="2018" selection-start-column="8" selection-end-line="2018" selection-end-column="8" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mooc/AddressBook.txt" />
+    <entry file="file://$PROJECT_DIR$/mooc/tele.txt" />
+    <entry file="file://$PROJECT_DIR$/mooc/combinebook.py" />
+    <entry file="file://$PROJECT_DIR$/mooc/combinebook1.py" />
+    <entry file="file://$PROJECT_DIR$/mooc/calcword.py" />
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/python-skeletons/io.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="285">
           <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+=======
+        <state relative-caret-position="673">
+          <caret line="614" column="20" lean-forward="false" selection-start-line="614" selection-start-column="20" selection-end-line="614" selection-end-column="20" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mooc/showthedate.py">
+    <entry file="file://$PROJECT_DIR$/mooc/changeT.py" />
+    <entry file="file://$PROJECT_DIR$/pyqt/main.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="190">
           <caret line="35" column="0" lean-forward="true" selection-start-line="35" selection-start-column="0" selection-end-line="35" selection-end-column="0" />
+=======
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mooc/changeT.py">
+    <entry file="file://$PROJECT_DIR$/mooc/email.txt" />
+    <entry file="file://$PROJECT_DIR$/mooc/matchSim.py" />
+    <entry file="file://$PROJECT_DIR$/mooc/Projectile.py" />
+    <entry file="file://$PROJECT_DIR$/mooc/BallGameSim.py" />
+    <entry file="file://$PROJECT_DIR$/learningPython/mytest.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+<<<<<<< HEAD
         </state>
       </provider>
     </entry>
@@ -607,18 +874,35 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pyqt/main.py">
+    <entry file="file://$PROJECT_DIR$/learningPython/learning.py">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+          <folding />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mooc/python_language_program_design/readfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="23" />
+=======
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mooc/email.txt">
+    <entry file="file://$PROJECT_DIR$/learningPython/Blow in the wind.txt">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="76">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
@@ -656,10 +940,15 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="1566" column="0" lean-forward="false" selection-start-line="1566" selection-start-column="0" selection-end-line="1566" selection-end-column="0" />
+=======
+        <state relative-caret-position="150">
+          <caret line="10" column="24" lean-forward="false" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/mooc/combinebook1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="475">
@@ -693,10 +982,25 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="23" column="34" lean-forward="false" selection-start-line="23" selection-start-column="34" selection-end-line="23" selection-end-column="34" />
+=======
+    <entry file="file:///Library/Frameworks/Python.framework/Versions/3.6/lib/python3.6/site-packages/xlrd/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6534">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DealOSHData/dealdata.py" />
+    <entry file="file://$PROJECT_DIR$/DealOSHData/7.18文件夹/dealdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="49" column="26" lean-forward="true" selection-start-line="49" selection-start-column="26" selection-end-line="49" selection-end-column="26" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/getprs/filterLastestVersion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -711,22 +1015,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/learningPython/mylyrics.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="23" lean-forward="false" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="23" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://C:/Python36/Lib/site-packages/openpyxl/worksheet/worksheet.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
           <caret line="312" column="0" lean-forward="false" selection-start-line="312" selection-start-column="0" selection-end-line="312" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/DealOSHData/7.18文件夹(整理后)/dealleavedata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="51" column="21" lean-forward="false" selection-start-line="51" selection-start-column="21" selection-end-line="51" selection-end-column="21" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/getprs/getLatestVersion.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
           <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+=======
+    <entry file="file://$PROJECT_DIR$/DealOSHData/7.18文件夹(整理后)/dealdata.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="47" column="48" lean-forward="true" selection-start-line="47" selection-start-column="48" selection-end-line="47" selection-end-column="48" />
+>>>>>>> 694b4317d0594d9674afd16fef926f335e63607f
           <folding />
         </state>
       </provider>
